@@ -1,0 +1,249 @@
+*{
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;  
+}
+
+.header{
+    position: absolute;
+    width: 525px;
+    height: 220px;
+    right: 230px;
+    left: 845px;
+    top: 216px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    margin-bottom: 24px;
+}
+
+.down-header{
+    position: absolute;
+    width: 494px;
+    height: 78px;
+    left: 876px;
+    top: 468px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+}
+
+.btn-primary{
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+    border: 0;
+    background: #F15B22;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.flex{
+    display: flex;
+}
+
+.lower-header{
+    position: absolute;
+    width: 288px;
+    height: 94px;
+    left: 862px;
+    top: 1178px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.lower-para{
+    position: absolute;
+    width: 416px;
+    height: 104px;
+    left: 862px;
+    top: 1296px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom : 16px;
+}
+
+.list{
+    position: absolute;
+    width: 315px;
+    height: 26px;
+    left: 896px;
+    top: 1416px;
+    font-size: 16px;
+    line-height: 26px;
+}
+l1{
+    width: 349;
+    height: 26px;
+    left: 862px;
+    top: 1416px;
+}
+
+.section-title{
+    text-align: center;
+    font-weight: 700px;
+    font-size: 35px;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+}
+
+.skill-container{
+    display: flex;
+    gap: 100px;
+    position: absolute;
+    width: 1141px;
+    height: 300px;
+    left: 230px;
+    top: 1791px;
+    margin-bottom: 124px;
+}
+
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.my-plan{
+    margin-top: 130px;
+    text-align: center;
+}
+
+.watch{
+    position: absolute;
+    width: 1148px;
+    height: 300px;
+    left: 230px;
+    top:2216.3px;
+    background-image: url(images/gradient2.png),url(images/watch.png);
+    background-repeat: no-repeat;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding: 60px;
+}
+
+.btn-call{
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 294px;
+    top: 2393.3px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #f15B22;
+    border: 0;
+    border-radius: 5px;
+}
+
+.future{
+    position: absolute;
+    width: 168px;
+    height: 577px;
+    left: 0px;
+    top: 2646.3px;
+}
+
+.fare{
+    position: absolute;
+    width: 148px;
+    height: 53px;
+    left: 230px;
+    top: 2776.3px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.but{
+    position: absolute;
+    width: 485px;
+    height: 78px;
+    left: 230px;
+    top: 2845.3px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #151414;
+    color: #FFFFFF;
+    position: absolute;
+    width: 1600px;
+    height: 577px;
+    left: 0;
+    top: 2646.3px;
+    padding-top: 130px;
+}
+
+.contact-title{
+    left: 230px;
+    top: 2776.3px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #f8f8f8;
+    margin-left: 150px;
+    margin-bottom: 24px;
+}
+
+.contact-des{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #f8f8f8;
+    margin-left: 150px;
+    margin-bottom: 24px;
+}
+
+.icon{
+    margin-left: 150px;
+    width: 175px;
+    height: 46px;
+    text-decoration: none;
+}
+
+.contact input[type="email"], textarea{
+    margin-left: 150px;
+    border: 0;
+    width: 40%;
+    padding: 18px 30px;
+    margin-bottom: 15px;
+}
+
+.btn-sub{
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #f15B22;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 150px;
+}
